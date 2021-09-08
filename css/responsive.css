@@ -1,0 +1,113 @@
+@media(min-width:670px){
+  /* 共通 */
+  .sp{
+    display:none;
+  }
+  .pc{
+    display:block;
+  }
+
+  /* ヘッダー */
+  header{
+    padding:15px;
+  }
+  h1{
+    font-size:40px;
+  }
+  h1 span{
+    font-size:28px;
+  }
+  .reserve{
+    margin-right:50px;
+  }
+  .tel{
+    font-size:18px;
+    font-style: italic;
+    margin-bottom:10px;
+  }
+  .web{
+    width:150px;
+    height:40px;
+    line-height:40px;
+    background-color: #79112b;
+    text-align:center;
+    border-radius:5px;
+    color:white;
+  }
+
+  /* ナビ */
+  nav{
+    position: static;
+  }
+  nav ul{
+    display:flex;
+  }
+  nav ul li{
+    width:25%;
+  }
+  nav a{
+    border:none;
+  }
+
+  /* ディッシュ */
+  .flex{
+    display:flex;
+    justify-content: space-between;
+  }
+  #dish img{
+    width:60%;
+    margin-left:50px;
+  }
+  /* ワイン */
+  #wine img{
+    width:60%;
+    margin-right:50px;
+  }
+  #wine .flex{
+    flex-direction: row-reverse;
+  }
+  
+
+
+  /* ピックアップメニュー */
+  #menu li{
+    width:31%;
+  }
+
+  /* インフォメーション */
+  .pc-col2{
+    display:flex;
+    justify-content: space-between;
+  }
+  #info,#staff{
+    width:48%;
+  }
+  
+
+  /* バナー */
+  #banner ul{
+    display:flex;
+    justify-content: space-between;
+  }
+  #banner li{
+    width:32%;
+  }
+
+  /* フッター */
+  .footer-col2{
+    display:flex;
+  }
+  footer img{
+    width:30%;
+    margin-right:5%;
+  }
+  .footer-right{
+    width:65%;
+  }
+  
+  
+
+
+
+
+}
